@@ -1,0 +1,47 @@
+{
+  "name": "minter-web-wallet",
+  "version": "0.1.0",
+  "description": "Web Wallet for Minter Dex",
+  "author": "Angelo Recca a.recca@bitsong.io",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bip39": "^2.5.0",
+    "cross-env": "^5.2.0",
+    "crypto-js": "^3.1.9-1",
+    "date-fns": "^2.0.0-alpha.22",
+    "entity-decode": "^2.0.2",
+    "ethereumjs-wallet": "^0.6.3",
+    "hdkey": "^1.1.1",
+    "jdenticon": "^2.1.1",
+    "md5": "^2.2.1",
+    "nuxt": "^2.4.3",
+    "nuxt-cli": "0.0.1",
+    "nuxt-validate": "^0.1.2",
+    "pretty-num": "^0.2.2",
+    "vue-avatar": "^2.1.7",
+    "vue-cookies": "^1.5.12",
+    "vue-metamask": "^1.0.10",
+    "vuelidate": "^0.7.4",
+    "vuetify": "^1.5.0",
+    "vuetify-loader": "^1.2.0",
+    "vuex-persistedstate": "^2.5.4",
+    "yoethwallet": "^0.1.2"
+  },
+  "devDependencies": {
+    "0x.js": "^6.0.3",
+    "@0x/connect": "^5.0.2",
+    "@0x/contract-addresses": "^2.2.2",
+    "@0x/web3-wrapper": "^6.0.2",
+    "@mdi/font": "^3.5.95",
+    "nodemon": "^1.18.9",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}

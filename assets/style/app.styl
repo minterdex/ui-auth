@@ -1,0 +1,94 @@
+$body-font-family = 'Roboto'
+
+@require '~vuetify/src/stylus/main'
+@require '~vuetify/src/stylus/app'
+
+.theme--light.application {
+  background: #fff !important;  
+}
+
+.display-1 {
+  line-height: 45px!important;
+}
+
+.theme--light {
+    .v-toolbar {
+        background-color: #fff !important;
+    }
+
+    .v-navigation-drawer {
+        background-color: #F5F5F5 !important;
+        border: 0!important;
+    }
+
+    .v-list {
+        color: #444444 !important;
+
+        .primary--text {
+            color: #141414!important;
+        }
+    }
+
+    .v-list__tile--active {
+        background-color:#dcdcdc !important;
+    }
+
+    .v-list__tile__action {
+        color: #ff0000 !important;
+    }
+}
+
+.v-toolbar {
+    box-shadow: none!important;  
+}
+
+.theme--light.v-text-field--outline > .v-input__control > .v-input__slot {
+    border:1px solid #d9dadf!important;
+}
+
+.create_address {
+  background-color: #f8f9fb;
+  padding: 15px;
+  border: 1px solid #dae1e9;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #2d2d2d
+}
+
+/* Loading Button */
+.custom-loader {
+  animation: loader 1s infinite;
+  display: flex;
+}
+@-moz-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
